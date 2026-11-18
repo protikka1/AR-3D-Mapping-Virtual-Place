@@ -1,0 +1,23 @@
+# 16:9 AR Billboard (Front and Back)
+v -0.8 0.0 0.0
+v 0.8 0.0 0.0
+v -0.8 0.9 0.0
+v 0.8 0.9 0.0
+
+# UV Coordinates (0,0 is bottom left)
+vt 0.0 0.0
+vt 1.0 0.0
+vt 0.0 1.0
+vt 1.0 1.0
+
+# Normals
+vn 0.0 0.0 1.0
+vn 0.0 0.0 -1.0
+
+# Front face (Counter-clockwise)
+f 1/1/1 2/2/1 4/4/1
+f 1/1/1 4/4/1 3/3/1
+
+# Back face (Clockwise from front = Counter-clockwise from back)
+f 2/2/2 1/1/2 3/3/2
+f 2/2/2 3/3/2 4/4/2

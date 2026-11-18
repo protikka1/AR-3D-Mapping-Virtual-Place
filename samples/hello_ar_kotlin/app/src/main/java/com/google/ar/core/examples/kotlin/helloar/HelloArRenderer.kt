@@ -208,7 +208,7 @@ class HelloArRenderer(val activity: HelloArActivity) :
       virtualObjectAlbedoTexture =
         Texture.createFromAsset(
           render,
-          "models/pawn_albedo.png",
+          "models/custom_banner.png",
           Texture.WrapMode.CLAMP_TO_EDGE,
           Texture.ColorFormat.SRGB
         )
@@ -216,7 +216,7 @@ class HelloArRenderer(val activity: HelloArActivity) :
       virtualObjectAlbedoInstantPlacementTexture =
         Texture.createFromAsset(
           render,
-          "models/pawn_albedo_instant_placement.png",
+          "models/custom_banner.png",
           Texture.WrapMode.CLAMP_TO_EDGE,
           Texture.ColorFormat.SRGB
         )
@@ -228,7 +228,7 @@ class HelloArRenderer(val activity: HelloArActivity) :
           Texture.WrapMode.CLAMP_TO_EDGE,
           Texture.ColorFormat.LINEAR
         )
-      virtualObjectMesh = Mesh.createFromAsset(render, "models/pawn.obj")
+      virtualObjectMesh = Mesh.createFromAsset(render, "models/billboard.obj")
       virtualObjectShader =
         Shader.createFromAssets(
             render,
