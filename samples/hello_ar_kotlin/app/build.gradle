@@ -45,6 +45,7 @@ android {
 }
 
 dependencies {
+    testImplementation "junit:junit:4.13.2"
     // ARCore (Google Play Services for AR) library.
     implementation 'com.google.ar:core:1.56.0'
 
